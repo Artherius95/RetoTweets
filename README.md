@@ -1,2 +1,2 @@
 # RetoTweets
- Prueba Tecnica twitter
+ Prueba Técnica twitter
