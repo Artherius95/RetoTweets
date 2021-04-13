@@ -1,6 +1,5 @@
 package com.retotweets.retotweets.services;
 
-import com.retotweets.retotweets.loader.TwitterLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,7 +13,7 @@ import java.util.stream.Collectors;
 @Service
 public class TwitterService {
 
-    Logger log = LoggerFactory.getLogger(TwitterLoader.class);
+    Logger log = LoggerFactory.getLogger(TwitterService.class);
 
     @Value( "${twitter.filter.minFollowers}" )
     Integer minFollowers;
